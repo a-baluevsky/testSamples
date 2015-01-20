@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classcc_1_1saml_1_1_s_a_m_l_binding" kind="class" prot="public">
+    <compoundname>cc::saml::SAMLBinding</compoundname>
+    <basecompoundref refid="classcc_1_1saml_1_1_s_a_m_l_protocol" prot="public" virt="non-virtual">cc.saml.SAMLProtocol</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcc_1_1saml_1_1_s_a_m_l_binding_1a4d3fec843a47379d73df5e156667c53c" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String cc.saml.SAMLBinding.REQUEST_SUFFIX</definition>
+        <argsstring></argsstring>
+        <name>REQUEST_SUFFIX</name>
+        <initializer>= &quot;Request.xml&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLBinding.java" line="33" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLBinding.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcc_1_1saml_1_1_s_a_m_l_binding_1a0e3229f09feb2086f4b29a83e450c8e0" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String cc.saml.SAMLBinding.RESPONSE_SUFFIX</definition>
+        <argsstring></argsstring>
+        <name>RESPONSE_SUFFIX</name>
+        <initializer>= &quot;Response.xml&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLBinding.java" line="34" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLBinding.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_binding_1a6a75906a183b16b63bba73e4c7dbca1a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cc.saml.SAMLBinding.die</definition>
+        <argsstring>()</argsstring>
+        <name>die</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLBinding.java" line="36" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLBinding.java" bodystart="36" bodyend="42"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a55d99449858dc8b04e97e5536052d3c1" compoundref="_s_a_m_l_binding_8java" startline="52" endline="90">cc.saml.SAMLBinding.main</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_binding_1a55d99449858dc8b04e97e5536052d3c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cc.saml.SAMLBinding.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parses the command line for instructions to write a <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> request or response in one of the three main types, and for a base filename. The command methods will automatically append either &quot;Request.xml&quot; or &quot;Response.xml&quot; to the base name. The file content in each case will be a SOAP Envelope, wrapping the request or response as the message body according to the <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> 2.0 SOAP binding. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLBinding.java" line="52" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLBinding.java" bodystart="52" bodyend="90"/>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a44bd1f35473bd3c0dde4fa0cefadf752" compoundref="_s_a_m_l_assertion_8java" startline="171" endline="227">cc.saml.SAMLAssertion.createStockAttributeAssertion</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1a06661e5449ef7819597b486431cb05df" compoundref="_s_a_m_l_protocol_8java" startline="169" endline="200">cc.saml.SAMLProtocol.createStockAttributeQuery</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a43260ae70cb3bd93396eadb5757966bf" compoundref="_s_a_m_l_assertion_8java" startline="95" endline="142">cc.saml.SAMLAssertion.createStockAuthnAssertion</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1ab2c7ef5273eaf9d37a2cab00fb3d0ff2" compoundref="_s_a_m_l_protocol_8java" startline="133" endline="164">cc.saml.SAMLProtocol.createStockAuthnQuery</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1af527d89e14d436b637139d360099be4e" compoundref="_s_a_m_l_assertion_8java" startline="262" endline="301">cc.saml.SAMLAssertion.createStockAuthzDecisionAssertion</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1ae49a4c5f70311cd187a51be70a6f91c8" compoundref="_s_a_m_l_protocol_8java" startline="205" endline="232">cc.saml.SAMLProtocol.createStockAuthzDecisionQuery</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a6a75906a183b16b63bba73e4c7dbca1a" compoundref="_s_a_m_l_binding_8java" startline="36" endline="42">cc.saml.SAMLBinding.die</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a99a99bce947e9418e3ac6503c559aa1a" compoundref="_s_a_m_l_binding_8java" startline="113" endline="140">cc.saml.SAMLBinding.wrapAndPrintResponse</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_binding_1ac4d17112f40b2d5d6ca829cfee3f7ff0" compoundref="_s_a_m_l_binding_8java" startline="96" endline="106">cc.saml.SAMLBinding.wrapAndPrintToFile</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_binding_1ac4d17112f40b2d5d6ca829cfee3f7ff0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.saml.SAMLBinding.wrapAndPrintToFile</definition>
+        <argsstring>(XMLObject object, String filename)</argsstring>
+        <name>wrapAndPrintToFile</name>
+        <param>
+          <type>XMLObject</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <exceptions> throws IOException, MarshallingException, TransformerException     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper method to generate and pretty-print a SOAP envelope, based on an XML object and a filename. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLBinding.java" line="96" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLBinding.java" bodystart="96" bodyend="106"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a55d99449858dc8b04e97e5536052d3c1" compoundref="_s_a_m_l_binding_8java" startline="52" endline="90">cc.saml.SAMLBinding.main</referencedby>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a99a99bce947e9418e3ac6503c559aa1a" compoundref="_s_a_m_l_binding_8java" startline="113" endline="140">cc.saml.SAMLBinding.wrapAndPrintResponse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_binding_1a99a99bce947e9418e3ac6503c559aa1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.saml.SAMLBinding.wrapAndPrintResponse</definition>
+        <argsstring>(Assertion assertion, String filename)</argsstring>
+        <name>wrapAndPrintResponse</name>
+        <param>
+          <type>Assertion</type>
+          <declname>assertion</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <exceptions> throws IOException, MarshallingException, TransformerException     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper method to generate and pretty-print a SOAP response envelope, based on a given request envelope (for our inResponseTo value) and a pre-built assertion. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLBinding.java" line="113" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLBinding.java" bodystart="113" bodyend="140"/>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_binding_1ac4d17112f40b2d5d6ca829cfee3f7ff0" compoundref="_s_a_m_l_binding_8java" startline="96" endline="106">cc.saml.SAMLBinding.wrapAndPrintToFile</references>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a55d99449858dc8b04e97e5536052d3c1" compoundref="_s_a_m_l_binding_8java" startline="52" endline="90">cc.saml.SAMLBinding.main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Simple examples of coding to the OpenSAML API. Methods here can read and write <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> assertions, queries, and responses using bindings including SOAP 1.1 over HTTP. (Nothing in this class performs any actual HTTP messaging, however: we continue to represent I/O using files and console streams.)</para><para><simplesect kind="author"><para>Will Provost </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="86">
+        <label>cc.saml.SAMLProtocol</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_protocol"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>cc.saml.SAMLBinding</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_binding"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>cc.saml.SAMLAssertion</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_assertion"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>cc.saml.SAML</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="90">
+        <label>cc.saml.SAMLProtocol</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_protocol"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>cc.saml.SAMLBinding</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_binding"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>SecureRandomIdentifierGenerator</label>
+      </node>
+      <node id="91">
+        <label>cc.saml.SAMLAssertion</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_assertion"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>DocumentBuilder</label>
+      </node>
+      <node id="92">
+        <label>cc.saml.SAML</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l"/>
+        <childnode refid="93" relation="usage">
+          <edgelabel>generator</edgelabel>
+        </childnode>
+        <childnode refid="94" relation="usage">
+          <edgelabel>builder</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLBinding.java" line="32" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLBinding.java" bodystart="30" bodyend="141"/>
+    <listofallmembers>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1a151c5b2772e0807d11ff04bd4b9c680e" prot="package" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>[static initializer]</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a44bd1f35473bd3c0dde4fa0cefadf752" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>createStockAttributeAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1a06661e5449ef7819597b486431cb05df" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>createStockAttributeQuery</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a43260ae70cb3bd93396eadb5757966bf" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>createStockAuthnAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1ab2c7ef5273eaf9d37a2cab00fb3d0ff2" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>createStockAuthnQuery</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1af527d89e14d436b637139d360099be4e" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>createStockAuthzDecisionAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1ae49a4c5f70311cd187a51be70a6f91c8" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>createStockAuthzDecisionQuery</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a6a75906a183b16b63bba73e4c7dbca1a" prot="private" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>die</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a55d99449858dc8b04e97e5536052d3c1" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>main</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1ab0ece914168029454fc9efa1cf518441" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>printResponse</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a2314b9dc82d1161cdf9eb2b076ef979e" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>readAttributeAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a77b34cdf04f05847a41a1aa0376963c9" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>readAuthnAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a73c5d748bf89ac05877fee1a470de3b8" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>readAuthzDecisionAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a4d3fec843a47379d73df5e156667c53c" prot="private" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>REQUEST_SUFFIX</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a0e3229f09feb2086f4b29a83e450c8e0" prot="private" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>RESPONSE_SUFFIX</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1ad34cd08f7b843500a186a7ddab99cc66" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>SAML</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1aada3ea2396b3bf4fef14dd04524f8255" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>SAML</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a99a99bce947e9418e3ac6503c559aa1a" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>wrapAndPrintResponse</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_binding_1ac4d17112f40b2d5d6ca829cfee3f7ff0" prot="public" virt="non-virtual"><scope>cc::saml::SAMLBinding</scope><name>wrapAndPrintToFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classcc_1_1saml_1_1_s_a_m_l_signature_1_1_key_value_key_selector" kind="class" prot="private">
+    <compoundname>cc::saml::SAMLSignature::KeyValueKeySelector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">KeySelector</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_signature_1_1_key_value_key_selector_1afd849631140c2ab6b5f8f92d04c35822" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>KeySelectorResult</type>
+        <definition>KeySelectorResult cc.saml.SAMLSignature.KeyValueKeySelector.select</definition>
+        <argsstring>(KeyInfo keyInfo, KeySelector.Purpose purpose, AlgorithmMethod method, XMLCryptoContext context)</argsstring>
+        <name>select</name>
+        <param>
+          <type>KeyInfo</type>
+          <declname>keyInfo</declname>
+        </param>
+        <param>
+          <type>KeySelector.Purpose</type>
+          <declname>purpose</declname>
+        </param>
+        <param>
+          <type>AlgorithmMethod</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>XMLCryptoContext</type>
+          <declname>context</declname>
+        </param>
+        <exceptions> throws KeySelectorException          </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" line="306" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" bodystart="306" bodyend="343"/>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a7d900671715d6f11a7f735724656d210" compoundref="_s_a_m_l_signature_8java" startline="350" endline="357">cc.saml.SAMLSignature.algEquals</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>KeySelector that can handle KeyValue and X509Data info. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="62">
+        <label>cc.saml.SAMLSignature.KeyValueKeySelector</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_signature_1_1_key_value_key_selector"/>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>KeySelector</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="64">
+        <label>cc.saml.SAMLSignature.KeyValueKeySelector</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_signature_1_1_key_value_key_selector"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>KeySelector</label>
+      </node>
+    </collaborationgraph>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" line="305" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" bodystart="303" bodyend="344"/>
+    <listofallmembers>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_signature_1_1_key_value_key_selector_1afd849631140c2ab6b5f8f92d04c35822" prot="public" virt="non-virtual"><scope>cc::saml::SAMLSignature::KeyValueKeySelector</scope><name>select</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

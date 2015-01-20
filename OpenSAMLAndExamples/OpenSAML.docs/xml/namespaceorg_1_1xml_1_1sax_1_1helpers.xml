@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespaceorg_1_1xml_1_1sax_1_1helpers" kind="namespace">
+    <compoundname>org::xml::sax::helpers</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dir_6445a4cff7c9cf59fa51f736a848dffa" kind="dir">
+    <compoundname>OpenSAML/src/cc</compoundname>
+    <innerdir refid="dir_43873511c658981787385c42067aaff4">OpenSAML/src/cc/saml</innerdir>
+    <innerdir refid="dir_1bb592836dfd33bbd61ac2d45c45a246">OpenSAML/src/cc/security</innerdir>
+    <innerdir refid="dir_d8f28325c205548719063dafc6ecc8f4">OpenSAML/src/cc/xml</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/"/>
+  </compounddef>
+</doxygen>

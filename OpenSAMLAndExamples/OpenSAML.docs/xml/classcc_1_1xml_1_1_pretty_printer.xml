@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classcc_1_1xml_1_1_pretty_printer" kind="class" prot="public">
+    <compoundname>cc::xml::PrettyPrinter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DefaultHandler</basecompoundref>
+    <innerclass refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter" prot="public">cc::xml::PrettyPrinter::StreamAdapter</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcc_1_1xml_1_1_pretty_printer_1a4026243bbc3fab7a0847262bb0ace358" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String cc.xml.PrettyPrinter.indent</definition>
+        <argsstring></argsstring>
+        <name>indent</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This whitespace string is expanded and collapsed to manage the output indenting. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="280" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="280" bodyend="-1"/>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a8746bb0600f14dc6a4aa71c67260c718" compoundref="_pretty_printer_8java" startline="222" endline="245">cc.xml.PrettyPrinter.endElement</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a0c96ec3a2f88e7faa533f522c80f17ab" compoundref="_pretty_printer_8java" startline="188" endline="216">cc.xml.PrettyPrinter.startElement</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcc_1_1xml_1_1_pretty_printer_1a84911d4ffbca0fb33647085d8decc96b" prot="private" static="no" mutable="no">
+        <type>StringBuffer</type>
+        <definition>StringBuffer cc.xml.PrettyPrinter.currentValue</definition>
+        <argsstring></argsstring>
+        <name>currentValue</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A buffer for character data. It is "enabled" in <ref refid="classcc_1_1xml_1_1_pretty_printer_1a0c96ec3a2f88e7faa533f522c80f17ab" kindref="member">startElement</ref> by being initialized to a new <bold>StringBuffer</bold>, and then read and reset to <computeroutput>null</computeroutput> in <ref refid="classcc_1_1xml_1_1_pretty_printer_1a8746bb0600f14dc6a4aa71c67260c718" kindref="member">endElement</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="288" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="288" bodyend="-1"/>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a5c71c3577541c6b1838f23edd2bc0623" compoundref="_pretty_printer_8java" startline="251" endline="256">cc.xml.PrettyPrinter.characters</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a8746bb0600f14dc6a4aa71c67260c718" compoundref="_pretty_printer_8java" startline="222" endline="245">cc.xml.PrettyPrinter.endElement</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a0c96ec3a2f88e7faa533f522c80f17ab" compoundref="_pretty_printer_8java" startline="188" endline="216">cc.xml.PrettyPrinter.startElement</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcc_1_1xml_1_1_pretty_printer_1ac8c28f776592ef3338055d1c2881def0" prot="private" static="no" mutable="no">
+        <type>StringBuffer</type>
+        <definition>StringBuffer cc.xml.PrettyPrinter.output</definition>
+        <argsstring></argsstring>
+        <name>output</name>
+        <initializer>= new StringBuffer ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The primary buffer for accumulating the formatted XML. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="293" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="293" bodyend="-1"/>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a7bc1b245247ed48e34d3da53a8fca852" compoundref="_pretty_printer_8java" startline="177" endline="180">cc.xml.PrettyPrinter.endDocument</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a8746bb0600f14dc6a4aa71c67260c718" compoundref="_pretty_printer_8java" startline="222" endline="245">cc.xml.PrettyPrinter.endElement</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a2fc1a9442f78b2eb158a48919a4f553b" compoundref="_pretty_printer_8java" startline="167" endline="172">cc.xml.PrettyPrinter.startDocument</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a0c96ec3a2f88e7faa533f522c80f17ab" compoundref="_pretty_printer_8java" startline="188" endline="216">cc.xml.PrettyPrinter.startElement</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a3e6a2e465c67216464a5641628b0a57c" compoundref="_pretty_printer_8java" startline="159" endline="162">cc.xml.PrettyPrinter.toString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcc_1_1xml_1_1_pretty_printer_1a52423c70aa32dc8e299af77d15a98a48" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean cc.xml.PrettyPrinter.justHitStartTag</definition>
+        <argsstring></argsstring>
+        <name>justHitStartTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="295" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="295" bodyend="-1"/>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a8746bb0600f14dc6a4aa71c67260c718" compoundref="_pretty_printer_8java" startline="222" endline="245">cc.xml.PrettyPrinter.endElement</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a0c96ec3a2f88e7faa533f522c80f17ab" compoundref="_pretty_printer_8java" startline="188" endline="216">cc.xml.PrettyPrinter.startElement</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcc_1_1xml_1_1_pretty_printer_1a9c175e45406639deb5d4c8dc552bfc55" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String cc.xml.PrettyPrinter.standardIndent</definition>
+        <argsstring></argsstring>
+        <name>standardIndent</name>
+        <initializer>= &quot;  &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="297" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="297" bodyend="-1"/>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a8746bb0600f14dc6a4aa71c67260c718" compoundref="_pretty_printer_8java" startline="222" endline="245">cc.xml.PrettyPrinter.endElement</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a0c96ec3a2f88e7faa533f522c80f17ab" compoundref="_pretty_printer_8java" startline="188" endline="216">cc.xml.PrettyPrinter.startElement</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcc_1_1xml_1_1_pretty_printer_1a712937ff233a752887141a520248417e" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String cc.xml.PrettyPrinter.endLine</definition>
+        <argsstring></argsstring>
+        <name>endLine</name>
+        <initializer>= 
+        System.getProperty (&quot;line.separator&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="298" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="298" bodyend="-1"/>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a7bc1b245247ed48e34d3da53a8fca852" compoundref="_pretty_printer_8java" startline="177" endline="180">cc.xml.PrettyPrinter.endDocument</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a8746bb0600f14dc6a4aa71c67260c718" compoundref="_pretty_printer_8java" startline="222" endline="245">cc.xml.PrettyPrinter.endElement</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a2fc1a9442f78b2eb158a48919a4f553b" compoundref="_pretty_printer_8java" startline="167" endline="172">cc.xml.PrettyPrinter.startDocument</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a0c96ec3a2f88e7faa533f522c80f17ab" compoundref="_pretty_printer_8java" startline="188" endline="216">cc.xml.PrettyPrinter.startElement</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcc_1_1xml_1_1_pretty_printer_1a970dae9de8f5cf89f2040a88ac948cd2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String cc.xml.PrettyPrinter.prettyPrint</definition>
+        <argsstring>(byte[] content)</argsstring>
+        <name>prettyPrint</name>
+        <param>
+          <type>byte[]</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience method to wrap pretty-printing SAX pass over existing content. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="41" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="41" bodyend="59"/>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a3e6a2e465c67216464a5641628b0a57c" compoundref="_pretty_printer_8java" startline="159" endline="162">cc.xml.PrettyPrinter.toString</references>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1a9ccc0bb52368535c900f225dd27c1a3e" compoundref="_pretty_printer_8java" startline="142" endline="150">cc.xml.PrettyPrinter.StreamAdapter.flushPretty</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1aaa29d1e56ed96c6c1a904df1d14456a4" compoundref="_pretty_printer_8java" startline="108" endline="127">cc.xml.PrettyPrinter.prettyPrint</referencedby>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a81b99672b9a6977db76c9289dce85b63" compoundref="_s_a_m_l_signature_8java" startline="383" endline="413">cc.saml.SAMLSignature.writeFiles</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1xml_1_1_pretty_printer_1a3186327e92245f4f1236d5bc36909c5d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String cc.xml.PrettyPrinter.prettyPrint</definition>
+        <argsstring>(String content)</argsstring>
+        <name>prettyPrint</name>
+        <param>
+          <type>String</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience method to wrap pretty-printing SAX pass over existing content. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="64" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="64" bodyend="81"/>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a3e6a2e465c67216464a5641628b0a57c" compoundref="_pretty_printer_8java" startline="159" endline="162">cc.xml.PrettyPrinter.toString</references>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1xml_1_1_pretty_printer_1a483539fc6e78550e783d0d4b11683f0b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String cc.xml.PrettyPrinter.prettyPrint</definition>
+        <argsstring>(InputStream content)</argsstring>
+        <name>prettyPrint</name>
+        <param>
+          <type>InputStream</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience method to wrap pretty-printing SAX pass over existing content. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="86" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="86" bodyend="103"/>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a3e6a2e465c67216464a5641628b0a57c" compoundref="_pretty_printer_8java" startline="159" endline="162">cc.xml.PrettyPrinter.toString</references>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1xml_1_1_pretty_printer_1aaa29d1e56ed96c6c1a904df1d14456a4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String cc.xml.PrettyPrinter.prettyPrint</definition>
+        <argsstring>(Document doc)</argsstring>
+        <name>prettyPrint</name>
+        <param>
+          <type>Document</type>
+          <declname>doc</declname>
+        </param>
+        <exceptions> throws TransformerException     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience method to wrap pretty-printing SAX pass over existing content. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="108" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="108" bodyend="127"/>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a970dae9de8f5cf89f2040a88ac948cd2" compoundref="_pretty_printer_8java" startline="41" endline="59">cc.xml.PrettyPrinter.prettyPrint</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcc_1_1xml_1_1_pretty_printer_1a3e6a2e465c67216464a5641628b0a57c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String cc.xml.PrettyPrinter.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call this to get the formatted XML post-parsing. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="159" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="159" bodyend="162"/>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1ac8c28f776592ef3338055d1c2881def0" compoundref="_pretty_printer_8java" startline="293">cc.xml.PrettyPrinter.output</references>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a970dae9de8f5cf89f2040a88ac948cd2" compoundref="_pretty_printer_8java" startline="41" endline="59">cc.xml.PrettyPrinter.prettyPrint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1xml_1_1_pretty_printer_1a2fc1a9442f78b2eb158a48919a4f553b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.xml.PrettyPrinter.startDocument</definition>
+        <argsstring>()</argsstring>
+        <name>startDocument</name>
+        <exceptions> throws SAXException      </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prints the XML declaration. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="167" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="167" bodyend="172"/>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a712937ff233a752887141a520248417e" compoundref="_pretty_printer_8java" startline="298">cc.xml.PrettyPrinter.endLine</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1ac8c28f776592ef3338055d1c2881def0" compoundref="_pretty_printer_8java" startline="293">cc.xml.PrettyPrinter.output</references>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1xml_1_1_pretty_printer_1a7bc1b245247ed48e34d3da53a8fca852" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.xml.PrettyPrinter.endDocument</definition>
+        <argsstring>()</argsstring>
+        <name>endDocument</name>
+        <exceptions> throws SAXException      </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prints a blank line at the end of the reformatted document. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="177" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="177" bodyend="180"/>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a712937ff233a752887141a520248417e" compoundref="_pretty_printer_8java" startline="298">cc.xml.PrettyPrinter.endLine</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1ac8c28f776592ef3338055d1c2881def0" compoundref="_pretty_printer_8java" startline="293">cc.xml.PrettyPrinter.output</references>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1xml_1_1_pretty_printer_1a0c96ec3a2f88e7faa533f522c80f17ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.xml.PrettyPrinter.startElement</definition>
+        <argsstring>(String URI, String name, String qName, Attributes attributes)</argsstring>
+        <name>startElement</name>
+        <param>
+          <type>String</type>
+          <declname>URI</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>qName</declname>
+        </param>
+        <param>
+          <type>Attributes</type>
+          <declname>attributes</declname>
+        </param>
+        <exceptions> throws SAXException      </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes the start tag for the element. Attributes are written out, one to a text line. Starts gathering character data for the element. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="187" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="188" bodyend="216"/>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a84911d4ffbca0fb33647085d8decc96b" compoundref="_pretty_printer_8java" startline="288">cc.xml.PrettyPrinter.currentValue</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a712937ff233a752887141a520248417e" compoundref="_pretty_printer_8java" startline="298">cc.xml.PrettyPrinter.endLine</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a4026243bbc3fab7a0847262bb0ace358" compoundref="_pretty_printer_8java" startline="280">cc.xml.PrettyPrinter.indent</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a52423c70aa32dc8e299af77d15a98a48" compoundref="_pretty_printer_8java" startline="295">cc.xml.PrettyPrinter.justHitStartTag</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1ac8c28f776592ef3338055d1c2881def0" compoundref="_pretty_printer_8java" startline="293">cc.xml.PrettyPrinter.output</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a9c175e45406639deb5d4c8dc552bfc55" compoundref="_pretty_printer_8java" startline="297">cc.xml.PrettyPrinter.standardIndent</references>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1xml_1_1_pretty_printer_1a8746bb0600f14dc6a4aa71c67260c718" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.xml.PrettyPrinter.endElement</definition>
+        <argsstring>(String URI, String name, String qName)</argsstring>
+        <name>endElement</name>
+        <param>
+          <type>String</type>
+          <declname>URI</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>qName</declname>
+        </param>
+        <exceptions> throws SAXException      </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks the <ref refid="classcc_1_1xml_1_1_pretty_printer_1a84911d4ffbca0fb33647085d8decc96b" kindref="member">currentValue</ref> buffer to gather element content. Writes this out if it is available. Writes the element end tag. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="222" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="222" bodyend="245"/>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a84911d4ffbca0fb33647085d8decc96b" compoundref="_pretty_printer_8java" startline="288">cc.xml.PrettyPrinter.currentValue</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a712937ff233a752887141a520248417e" compoundref="_pretty_printer_8java" startline="298">cc.xml.PrettyPrinter.endLine</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a4026243bbc3fab7a0847262bb0ace358" compoundref="_pretty_printer_8java" startline="280">cc.xml.PrettyPrinter.indent</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a52423c70aa32dc8e299af77d15a98a48" compoundref="_pretty_printer_8java" startline="295">cc.xml.PrettyPrinter.justHitStartTag</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1ac8c28f776592ef3338055d1c2881def0" compoundref="_pretty_printer_8java" startline="293">cc.xml.PrettyPrinter.output</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a9c175e45406639deb5d4c8dc552bfc55" compoundref="_pretty_printer_8java" startline="297">cc.xml.PrettyPrinter.standardIndent</references>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1xml_1_1_pretty_printer_1a5c71c3577541c6b1838f23edd2bc0623" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.xml.PrettyPrinter.characters</definition>
+        <argsstring>(char[] chars, int start, int length)</argsstring>
+        <name>characters</name>
+        <param>
+          <type>char[]</type>
+          <declname>chars</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <exceptions> throws SAXException      </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>When the <ref refid="classcc_1_1xml_1_1_pretty_printer_1a84911d4ffbca0fb33647085d8decc96b" kindref="member">currentValue</ref> buffer is enabled, appends character data into it, to be gathered when the element end tag is encountered. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="251" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="251" bodyend="256"/>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a84911d4ffbca0fb33647085d8decc96b" compoundref="_pretty_printer_8java" startline="288">cc.xml.PrettyPrinter.currentValue</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1aed8eeadd9edf114919deabb3992e697a" compoundref="_pretty_printer_8java" startline="262" endline="274">cc.xml.PrettyPrinter.escape</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcc_1_1xml_1_1_pretty_printer_1aed8eeadd9edf114919deabb3992e697a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String cc.xml.PrettyPrinter.escape</definition>
+        <argsstring>(char[] chars, int start, int length)</argsstring>
+        <name>escape</name>
+        <param>
+          <type>char[]</type>
+          <declname>chars</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Filter to pass strings to output, escaping <bold>&lt;</bold> and <bold>&amp;</bold> characters to &amp;lt; and &amp;amp; respectively. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="262" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="262" bodyend="274"/>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1a5c71c3577541c6b1838f23edd2bc0623" compoundref="_pretty_printer_8java" startline="251" endline="256">cc.xml.PrettyPrinter.characters</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class &quot;pretty prints&quot; an XML stream to something more human-readable. It duplicates the character content with some modifications to whitespace, restoring line breaks and a simple pattern of indenting child elements.</para><para>This version of the class acts as a SAX 2.0 <computeroutput>DefaultHandler</computeroutput>, so to provide the unformatted XML just pass a new instance to a SAX parser. Its output is via the <ref refid="classcc_1_1xml_1_1_pretty_printer_1a3e6a2e465c67216464a5641628b0a57c" kindref="member">toString</ref> method.</para><para>One major limitation: we gather character data for elements in a single buffer, so mixed-content documents will lose a lot of data! This works best with data-centric documents where elements either have single values or child elements, but not both.</para><para><simplesect kind="author"><para>Will Provost </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="66">
+        <label>cc.xml.PrettyPrinter</label>
+        <link refid="classcc_1_1xml_1_1_pretty_printer"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>DefaultHandler</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="68">
+        <label>cc.xml.PrettyPrinter</label>
+        <link refid="classcc_1_1xml_1_1_pretty_printer"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>DefaultHandler</label>
+      </node>
+    </collaborationgraph>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="37" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="35" bodyend="300"/>
+    <listofallmembers>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1a5c71c3577541c6b1838f23edd2bc0623" prot="public" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>characters</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1a84911d4ffbca0fb33647085d8decc96b" prot="private" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>currentValue</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1a7bc1b245247ed48e34d3da53a8fca852" prot="public" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>endDocument</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1a8746bb0600f14dc6a4aa71c67260c718" prot="public" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>endElement</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1a712937ff233a752887141a520248417e" prot="private" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>endLine</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1aed8eeadd9edf114919deabb3992e697a" prot="private" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>escape</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1a4026243bbc3fab7a0847262bb0ace358" prot="private" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>indent</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1a52423c70aa32dc8e299af77d15a98a48" prot="private" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>justHitStartTag</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1ac8c28f776592ef3338055d1c2881def0" prot="private" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>output</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1a970dae9de8f5cf89f2040a88ac948cd2" prot="public" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>prettyPrint</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1a3186327e92245f4f1236d5bc36909c5d" prot="public" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>prettyPrint</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1a483539fc6e78550e783d0d4b11683f0b" prot="public" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>prettyPrint</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1aaa29d1e56ed96c6c1a904df1d14456a4" prot="public" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>prettyPrint</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1a9c175e45406639deb5d4c8dc552bfc55" prot="private" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>standardIndent</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1a2fc1a9442f78b2eb158a48919a4f553b" prot="public" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>startDocument</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1a0c96ec3a2f88e7faa533f522c80f17ab" prot="public" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>startElement</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1a3e6a2e465c67216464a5641628b0a57c" prot="public" virt="non-virtual"><scope>cc::xml::PrettyPrinter</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

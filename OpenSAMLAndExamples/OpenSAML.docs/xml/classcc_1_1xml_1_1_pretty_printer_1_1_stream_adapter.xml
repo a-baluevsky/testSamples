@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter" kind="class" prot="public">
+    <compoundname>cc::xml::PrettyPrinter::StreamAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">OutputStream</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1a1edf0ede63f87a085dce4332b2496efb" prot="private" static="no" mutable="no">
+        <type>ByteArrayOutputStream</type>
+        <definition>ByteArrayOutputStream cc.xml.PrettyPrinter.StreamAdapter.out</definition>
+        <argsstring></argsstring>
+        <name>out</name>
+        <initializer>= new ByteArrayOutputStream ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="152" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="152" bodyend="-1"/>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1a9ccc0bb52368535c900f225dd27c1a3e" compoundref="_pretty_printer_8java" startline="142" endline="150">cc.xml.PrettyPrinter.StreamAdapter.flushPretty</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1adf2425fb30188dee0ebbd61debfb975b" compoundref="_pretty_printer_8java" startline="137" endline="140">cc.xml.PrettyPrinter.StreamAdapter.write</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1a3bb7e1585fcaa69ad18f34aaa03b94ff" prot="package" static="no" mutable="no">
+        <type>Writer</type>
+        <definition>Writer cc.xml.PrettyPrinter.StreamAdapter.finalDestination</definition>
+        <argsstring></argsstring>
+        <name>finalDestination</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="153" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="153" bodyend="-1"/>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1a9ccc0bb52368535c900f225dd27c1a3e" compoundref="_pretty_printer_8java" startline="142" endline="150">cc.xml.PrettyPrinter.StreamAdapter.flushPretty</referencedby>
+        <referencedby refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1ae5e9a349600020a25bd2f6d5d90179ba" compoundref="_pretty_printer_8java" startline="132" endline="135">cc.xml.PrettyPrinter.StreamAdapter.StreamAdapter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1ae5e9a349600020a25bd2f6d5d90179ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>cc.xml.PrettyPrinter.StreamAdapter.StreamAdapter</definition>
+        <argsstring>(Writer finalDestination)</argsstring>
+        <name>StreamAdapter</name>
+        <param>
+          <type>Writer</type>
+          <declname>finalDestination</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="132" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="132" bodyend="135"/>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1a3bb7e1585fcaa69ad18f34aaa03b94ff" compoundref="_pretty_printer_8java" startline="153">cc.xml.PrettyPrinter.StreamAdapter.finalDestination</references>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1adf2425fb30188dee0ebbd61debfb975b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.xml.PrettyPrinter.StreamAdapter.write</definition>
+        <argsstring>(int b)</argsstring>
+        <name>write</name>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="137" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="137" bodyend="140"/>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1a1edf0ede63f87a085dce4332b2496efb" compoundref="_pretty_printer_8java" startline="152">cc.xml.PrettyPrinter.StreamAdapter.out</references>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1a9ccc0bb52368535c900f225dd27c1a3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.xml.PrettyPrinter.StreamAdapter.flushPretty</definition>
+        <argsstring>()</argsstring>
+        <name>flushPretty</name>
+        <exceptions> throws IOException         </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="142" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="142" bodyend="150"/>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1a3bb7e1585fcaa69ad18f34aaa03b94ff" compoundref="_pretty_printer_8java" startline="153">cc.xml.PrettyPrinter.StreamAdapter.finalDestination</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1a1edf0ede63f87a085dce4332b2496efb" compoundref="_pretty_printer_8java" startline="152">cc.xml.PrettyPrinter.StreamAdapter.out</references>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a970dae9de8f5cf89f2040a88ac948cd2" compoundref="_pretty_printer_8java" startline="41" endline="59">cc.xml.PrettyPrinter.prettyPrint</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="115">
+        <label>cc.xml.PrettyPrinter.StreamAdapter</label>
+        <link refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="116">
+        <label>OutputStream</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="119">
+        <label>ByteArrayOutputStream</label>
+      </node>
+      <node id="117">
+        <label>cc.xml.PrettyPrinter.StreamAdapter</label>
+        <link refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter"/>
+        <childnode refid="118" relation="public-inheritance">
+        </childnode>
+        <childnode refid="119" relation="usage">
+          <edgelabel>out</edgelabel>
+        </childnode>
+      </node>
+      <node id="118">
+        <label>OutputStream</label>
+      </node>
+    </collaborationgraph>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" line="131" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/PrettyPrinter.java" bodystart="129" bodyend="154"/>
+    <listofallmembers>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1a3bb7e1585fcaa69ad18f34aaa03b94ff" prot="package" virt="non-virtual"><scope>cc::xml::PrettyPrinter::StreamAdapter</scope><name>finalDestination</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1a9ccc0bb52368535c900f225dd27c1a3e" prot="public" virt="non-virtual"><scope>cc::xml::PrettyPrinter::StreamAdapter</scope><name>flushPretty</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1a1edf0ede63f87a085dce4332b2496efb" prot="private" virt="non-virtual"><scope>cc::xml::PrettyPrinter::StreamAdapter</scope><name>out</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1ae5e9a349600020a25bd2f6d5d90179ba" prot="public" virt="non-virtual"><scope>cc::xml::PrettyPrinter::StreamAdapter</scope><name>StreamAdapter</name></member>
+      <member refid="classcc_1_1xml_1_1_pretty_printer_1_1_stream_adapter_1adf2425fb30188dee0ebbd61debfb975b" prot="public" virt="non-virtual"><scope>cc::xml::PrettyPrinter::StreamAdapter</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

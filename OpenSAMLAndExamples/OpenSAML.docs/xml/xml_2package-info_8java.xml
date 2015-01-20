@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="xml_2package-info_8java" kind="file">
+    <compoundname>package-info.java</compoundname>
+    <innernamespace refid="namespacecc_1_1xml">cc::xml</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4" refid="namespacecc_1_1xml" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">cc.xml;</highlight></codeline>
+    </programlisting>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/xml/package-info.java"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespacecc_1_1saml" kind="namespace">
+    <compoundname>cc::saml</compoundname>
+    <innerclass refid="classcc_1_1saml_1_1_s_a_m_l" prot="public">cc::saml::SAML</innerclass>
+    <innerclass refid="classcc_1_1saml_1_1_s_a_m_l_assertion" prot="public">cc::saml::SAMLAssertion</innerclass>
+    <innerclass refid="classcc_1_1saml_1_1_s_a_m_l_binding" prot="public">cc::saml::SAMLBinding</innerclass>
+    <innerclass refid="classcc_1_1saml_1_1_s_a_m_l_protocol" prot="public">cc::saml::SAMLProtocol</innerclass>
+    <innerclass refid="classcc_1_1saml_1_1_s_a_m_l_signature" prot="public">cc::saml::SAMLSignature</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> utilities and examples. </para>    </detaileddescription>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/package-info.java" line="4" column="1"/>
+  </compounddef>
+</doxygen>

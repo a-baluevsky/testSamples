@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classcc_1_1security_1_1_key_store_util" kind="class" prot="public">
+    <compoundname>cc::security::KeyStoreUtil</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcc_1_1security_1_1_key_store_util_1ad06031e83f9877d1e792bbb69f926598" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String cc.security.KeyStoreUtil.endLine</definition>
+        <argsstring></argsstring>
+        <name>endLine</name>
+        <initializer>= 
+        System.getProperty (&quot;line.separator&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" line="160" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" bodystart="160" bodyend="-1"/>
+        <referencedby refid="classcc_1_1security_1_1_key_store_util_1a0d58479923a5d65f5382e4539d01920d" compoundref="_key_store_util_8java" startline="95" endline="104">cc.security.KeyStoreUtil.spillBeans</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcc_1_1security_1_1_key_store_util_1a059461c210038290e88d2115495b2d37" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>KeyStore</type>
+        <definition>static KeyStore cc.security.KeyStoreUtil.getKeyStore</definition>
+        <argsstring>(String filename, String password)</argsstring>
+        <name>getKeyStore</name>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <exceptions> throws KeyStoreException     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a KeyStore object given the keystore filename and password. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" line="21" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" bodystart="21" bodyend="39"/>
+        <referencedby refid="classcc_1_1security_1_1_key_store_util_1a07a10d8ec6dcb82210f798e2bed46809" compoundref="_key_store_util_8java" startline="169" endline="203">cc.security.KeyStoreUtil.main</referencedby>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a832bbe4da44d102093ee0353b258e946" compoundref="_s_a_m_l_signature_8java" startline="154" endline="187">cc.saml.SAMLSignature.SAMLSignature</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1security_1_1_key_store_util_1a51d95a1e37616623e95dfe4664630a45" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>KeyStore</type>
+        <definition>static KeyStore cc.security.KeyStoreUtil.getKeyStore</definition>
+        <argsstring>(InputStream in, String password)</argsstring>
+        <name>getKeyStore</name>
+        <param>
+          <type>InputStream</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <exceptions> throws KeyStoreException     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a KeyStore object given the keystore filename and password. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" line="44" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" bodystart="44" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1security_1_1_key_store_util_1a91019c003900d0d80bdf738d3cc9d0a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List</type>
+        <definition>static List cc.security.KeyStoreUtil.getAliases</definition>
+        <argsstring>(KeyStore keystore)</argsstring>
+        <name>getAliases</name>
+        <param>
+          <type>KeyStore</type>
+          <declname>keystore</declname>
+        </param>
+        <exceptions> throws KeyStoreException     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>List all the key and certificate aliases in the keystore.</para><para><simplesect kind="return"><para>A list of Strings </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" line="67" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" bodystart="67" bodyend="71"/>
+        <referencedby refid="classcc_1_1security_1_1_key_store_util_1a07a10d8ec6dcb82210f798e2bed46809" compoundref="_key_store_util_8java" startline="169" endline="203">cc.security.KeyStoreUtil.main</referencedby>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a6b23f831db757f0d47a1237ea9caf7b1" compoundref="_s_a_m_l_signature_8java" startline="260" endline="298">cc.saml.SAMLSignature.verifySAMLSignature</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1security_1_1_key_store_util_1a8e160e20f94a8379007ea39a7e9169c5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Key</type>
+        <definition>static Key cc.security.KeyStoreUtil.getKey</definition>
+        <argsstring>(KeyStore keystore, String alias, String password)</argsstring>
+        <name>getKey</name>
+        <param>
+          <type>KeyStore</type>
+          <declname>keystore</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>alias</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <exceptions> throws GeneralSecurityException     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a private key from the keystore by name and password. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" line="76" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" bodystart="76" bodyend="80"/>
+        <referencedby refid="classcc_1_1security_1_1_key_store_util_1a07a10d8ec6dcb82210f798e2bed46809" compoundref="_key_store_util_8java" startline="169" endline="203">cc.security.KeyStoreUtil.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1security_1_1_key_store_util_1ad25e3074507ec517ac57bc701277e1f7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>java.security.cert.Certificate</type>
+        <definition>static java.security.cert.Certificate cc.security.KeyStoreUtil.getCertificate</definition>
+        <argsstring>(KeyStore keystore, String alias)</argsstring>
+        <name>getCertificate</name>
+        <param>
+          <type>KeyStore</type>
+          <declname>keystore</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>alias</declname>
+        </param>
+        <exceptions> throws GeneralSecurityException     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a certificate from the keystore by name. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" line="85" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" bodystart="86" bodyend="90"/>
+        <referencedby refid="classcc_1_1security_1_1_key_store_util_1a07a10d8ec6dcb82210f798e2bed46809" compoundref="_key_store_util_8java" startline="169" endline="203">cc.security.KeyStoreUtil.main</referencedby>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a6b23f831db757f0d47a1237ea9caf7b1" compoundref="_s_a_m_l_signature_8java" startline="260" endline="298">cc.saml.SAMLSignature.verifySAMLSignature</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1security_1_1_key_store_util_1a0d58479923a5d65f5382e4539d01920d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String cc.security.KeyStoreUtil.spillBeans</definition>
+        <argsstring>(Key key)</argsstring>
+        <name>spillBeans</name>
+        <param>
+          <type>Key</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dump all data about the private key to the console. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" line="95" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" bodystart="95" bodyend="104"/>
+        <references refid="classcc_1_1security_1_1_key_store_util_1ab33fd32c89eafaa53f168f8e4fad40d7" compoundref="_key_store_util_8java" startline="140" endline="148">cc.security.KeyStoreUtil.appendHexValue</references>
+        <references refid="classcc_1_1security_1_1_key_store_util_1ad06031e83f9877d1e792bbb69f926598" compoundref="_key_store_util_8java" startline="160">cc.security.KeyStoreUtil.endLine</references>
+        <referencedby refid="classcc_1_1security_1_1_key_store_util_1a07a10d8ec6dcb82210f798e2bed46809" compoundref="_key_store_util_8java" startline="169" endline="203">cc.security.KeyStoreUtil.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1security_1_1_key_store_util_1af01c8bc484a382ac53b5142b339f9e68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String cc.security.KeyStoreUtil.spillBeans</definition>
+        <argsstring>(java.security.cert.Certificate cert)</argsstring>
+        <name>spillBeans</name>
+        <param>
+          <type>java.security.cert.Certificate</type>
+          <declname>cert</declname>
+        </param>
+        <exceptions> throws GeneralSecurityException     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dump all data about the certificate to the console. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" line="109" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" bodystart="109" bodyend="118"/>
+        <references refid="classcc_1_1security_1_1_key_store_util_1ab33fd32c89eafaa53f168f8e4fad40d7" compoundref="_key_store_util_8java" startline="140" endline="148">cc.security.KeyStoreUtil.appendHexValue</references>
+        <references refid="classcc_1_1security_1_1_key_store_util_1ad06031e83f9877d1e792bbb69f926598" compoundref="_key_store_util_8java" startline="160">cc.security.KeyStoreUtil.endLine</references>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1security_1_1_key_store_util_1a87279ec355d12383eb724e7d7b151631" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String cc.security.KeyStoreUtil.getUserInput</definition>
+        <argsstring>(String prompt)</argsstring>
+        <name>getUserInput</name>
+        <param>
+          <type>String</type>
+          <declname>prompt</declname>
+        </param>
+        <exceptions> throws IOException     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper method to solicit a line of user input from the console. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" line="123" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" bodystart="123" bodyend="132"/>
+        <referencedby refid="classcc_1_1security_1_1_key_store_util_1a07a10d8ec6dcb82210f798e2bed46809" compoundref="_key_store_util_8java" startline="169" endline="203">cc.security.KeyStoreUtil.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1security_1_1_key_store_util_1ab33fd32c89eafaa53f168f8e4fad40d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cc.security.KeyStoreUtil.appendHexValue</definition>
+        <argsstring>(StringBuffer buffer, byte b)</argsstring>
+        <name>appendHexValue</name>
+        <param>
+          <type>StringBuffer</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper method that converts a single byte to a hex string representation.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>byte Byte to convert </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>StringBuffer with the two-digit hex string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" line="140" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" bodystart="140" bodyend="148"/>
+        <referencedby refid="classcc_1_1security_1_1_key_store_util_1a1cf59ca530664fe927112d0854604a7a" compoundref="_key_store_util_8java" startline="154" endline="158">cc.security.KeyStoreUtil.appendHexValue</referencedby>
+        <referencedby refid="classcc_1_1security_1_1_key_store_util_1a0d58479923a5d65f5382e4539d01920d" compoundref="_key_store_util_8java" startline="95" endline="104">cc.security.KeyStoreUtil.spillBeans</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1security_1_1_key_store_util_1a1cf59ca530664fe927112d0854604a7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cc.security.KeyStoreUtil.appendHexValue</definition>
+        <argsstring>(StringBuffer buffer, byte[] bytes)</argsstring>
+        <name>appendHexValue</name>
+        <param>
+          <type>StringBuffer</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper that appends a hex representation of a byte array to an existing StringBuffer. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" line="154" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" bodystart="154" bodyend="158"/>
+        <references refid="classcc_1_1security_1_1_key_store_util_1ab33fd32c89eafaa53f168f8e4fad40d7" compoundref="_key_store_util_8java" startline="140" endline="148">cc.security.KeyStoreUtil.appendHexValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1security_1_1_key_store_util_1a07a10d8ec6dcb82210f798e2bed46809" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cc.security.KeyStoreUtil.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>As an application, this class will operate something like the <bold>keytool -list</bold> command: it will read out every alias in the keystore, and with the user&apos;s provided password for a given key will write out all data on the key and/or certificate. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" line="169" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" bodystart="169" bodyend="203"/>
+        <references refid="classcc_1_1security_1_1_key_store_util_1a91019c003900d0d80bdf738d3cc9d0a3" compoundref="_key_store_util_8java" startline="67" endline="71">cc.security.KeyStoreUtil.getAliases</references>
+        <references refid="classcc_1_1security_1_1_key_store_util_1ad25e3074507ec517ac57bc701277e1f7" compoundref="_key_store_util_8java" startline="86" endline="90">cc.security.KeyStoreUtil.getCertificate</references>
+        <references refid="classcc_1_1security_1_1_key_store_util_1a8e160e20f94a8379007ea39a7e9169c5" compoundref="_key_store_util_8java" startline="76" endline="80">cc.security.KeyStoreUtil.getKey</references>
+        <references refid="classcc_1_1security_1_1_key_store_util_1a059461c210038290e88d2115495b2d37" compoundref="_key_store_util_8java" startline="21" endline="39">cc.security.KeyStoreUtil.getKeyStore</references>
+        <references refid="classcc_1_1security_1_1_key_store_util_1a87279ec355d12383eb724e7d7b151631" compoundref="_key_store_util_8java" startline="123" endline="132">cc.security.KeyStoreUtil.getUserInput</references>
+        <references refid="classcc_1_1security_1_1_key_store_util_1a0d58479923a5d65f5382e4539d01920d" compoundref="_key_store_util_8java" startline="95" endline="104">cc.security.KeyStoreUtil.spillBeans</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Simple utility for managing common KeyStore tasks.</para><para><simplesect kind="author"><para>Will Provost </para></simplesect>
+</para>    </detaileddescription>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" line="17" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/KeyStoreUtil.java" bodystart="16" bodyend="204"/>
+    <listofallmembers>
+      <member refid="classcc_1_1security_1_1_key_store_util_1ab33fd32c89eafaa53f168f8e4fad40d7" prot="public" virt="non-virtual"><scope>cc::security::KeyStoreUtil</scope><name>appendHexValue</name></member>
+      <member refid="classcc_1_1security_1_1_key_store_util_1a1cf59ca530664fe927112d0854604a7a" prot="public" virt="non-virtual"><scope>cc::security::KeyStoreUtil</scope><name>appendHexValue</name></member>
+      <member refid="classcc_1_1security_1_1_key_store_util_1ad06031e83f9877d1e792bbb69f926598" prot="private" virt="non-virtual"><scope>cc::security::KeyStoreUtil</scope><name>endLine</name></member>
+      <member refid="classcc_1_1security_1_1_key_store_util_1a91019c003900d0d80bdf738d3cc9d0a3" prot="public" virt="non-virtual"><scope>cc::security::KeyStoreUtil</scope><name>getAliases</name></member>
+      <member refid="classcc_1_1security_1_1_key_store_util_1ad25e3074507ec517ac57bc701277e1f7" prot="public" virt="non-virtual"><scope>cc::security::KeyStoreUtil</scope><name>getCertificate</name></member>
+      <member refid="classcc_1_1security_1_1_key_store_util_1a8e160e20f94a8379007ea39a7e9169c5" prot="public" virt="non-virtual"><scope>cc::security::KeyStoreUtil</scope><name>getKey</name></member>
+      <member refid="classcc_1_1security_1_1_key_store_util_1a059461c210038290e88d2115495b2d37" prot="public" virt="non-virtual"><scope>cc::security::KeyStoreUtil</scope><name>getKeyStore</name></member>
+      <member refid="classcc_1_1security_1_1_key_store_util_1a51d95a1e37616623e95dfe4664630a45" prot="public" virt="non-virtual"><scope>cc::security::KeyStoreUtil</scope><name>getKeyStore</name></member>
+      <member refid="classcc_1_1security_1_1_key_store_util_1a87279ec355d12383eb724e7d7b151631" prot="public" virt="non-virtual"><scope>cc::security::KeyStoreUtil</scope><name>getUserInput</name></member>
+      <member refid="classcc_1_1security_1_1_key_store_util_1a07a10d8ec6dcb82210f798e2bed46809" prot="public" virt="non-virtual"><scope>cc::security::KeyStoreUtil</scope><name>main</name></member>
+      <member refid="classcc_1_1security_1_1_key_store_util_1a0d58479923a5d65f5382e4539d01920d" prot="public" virt="non-virtual"><scope>cc::security::KeyStoreUtil</scope><name>spillBeans</name></member>
+      <member refid="classcc_1_1security_1_1_key_store_util_1af01c8bc484a382ac53b5142b339f9e68" prot="public" virt="non-virtual"><scope>cc::security::KeyStoreUtil</scope><name>spillBeans</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

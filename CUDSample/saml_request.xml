@@ -1,0 +1,16 @@
+<saml2p:AuthnRequest xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol"
+                     AssertionConsumerServiceURL="https://login.gov.spb.ru/idp-proxy/login"
+                     Destination="http://195.144.238.202:8080/cudidp/login"
+                     ID="ID_b860bd98-33a0-4a92-8dc1-f955ea50703e"
+                     IssueInstant="2014-08-12T14:00:27.064Z"
+                     ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                     Version="2.0"
+                     >
+    <saml2:Issuer xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">urn:group-eis:toris</saml2:Issuer>
+    <saml2p:NameIDPolicy AllowCreate="true"
+                         Format="urn:oasis:names:tc:SAML:2.0:nameid-format:transient"
+                         />
+    <saml2p:RequestedAuthnContext>
+        <saml2:AuthnContextClassRef xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">urn:oasis:names:tc:SAML:2.0:ac:classes:password</saml2:AuthnContextClassRef>
+    </saml2p:RequestedAuthnContext>
+</saml2p:AuthnRequest>

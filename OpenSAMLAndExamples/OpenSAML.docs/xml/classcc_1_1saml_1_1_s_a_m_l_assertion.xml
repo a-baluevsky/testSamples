@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classcc_1_1saml_1_1_s_a_m_l_assertion" kind="class" prot="public">
+    <compoundname>cc::saml::SAMLAssertion</compoundname>
+    <basecompoundref refid="classcc_1_1saml_1_1_s_a_m_l" prot="public" virt="non-virtual">cc.saml.SAML</basecompoundref>
+    <derivedcompoundref refid="classcc_1_1saml_1_1_s_a_m_l_protocol" prot="public" virt="non-virtual">cc.saml.SAMLProtocol</derivedcompoundref>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_assertion_1a9357b46b21876731eaf1ad4d2ae3b614" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cc.saml.SAMLAssertion.die</definition>
+        <argsstring>()</argsstring>
+        <name>die</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" line="43" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" bodystart="43" bodyend="48"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1af9dda4ac33e32d0ca6e5ddfc6541a393" compoundref="_s_a_m_l_assertion_8java" startline="55" endline="90">cc.saml.SAMLAssertion.main</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_assertion_1af9dda4ac33e32d0ca6e5ddfc6541a393" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cc.saml.SAMLAssertion.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse the command line for instructions to write or read one of the three types of assertions and for a target filename. Dispatch to one of the six command methods on this class. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" line="55" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" bodystart="55" bodyend="90"/>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a44bd1f35473bd3c0dde4fa0cefadf752" compoundref="_s_a_m_l_assertion_8java" startline="171" endline="227">cc.saml.SAMLAssertion.createStockAttributeAssertion</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a43260ae70cb3bd93396eadb5757966bf" compoundref="_s_a_m_l_assertion_8java" startline="95" endline="142">cc.saml.SAMLAssertion.createStockAuthnAssertion</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1af527d89e14d436b637139d360099be4e" compoundref="_s_a_m_l_assertion_8java" startline="262" endline="301">cc.saml.SAMLAssertion.createStockAuthzDecisionAssertion</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a9357b46b21876731eaf1ad4d2ae3b614" compoundref="_s_a_m_l_assertion_8java" startline="43" endline="48">cc.saml.SAMLAssertion.die</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a2314b9dc82d1161cdf9eb2b076ef979e" compoundref="_s_a_m_l_assertion_8java" startline="233" endline="257">cc.saml.SAMLAssertion.readAttributeAssertion</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a77b34cdf04f05847a41a1aa0376963c9" compoundref="_s_a_m_l_assertion_8java" startline="149" endline="166">cc.saml.SAMLAssertion.readAuthnAssertion</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a73c5d748bf89ac05877fee1a470de3b8" compoundref="_s_a_m_l_assertion_8java" startline="307" endline="329">cc.saml.SAMLAssertion.readAuthzDecisionAssertion</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_assertion_1a43260ae70cb3bd93396eadb5757966bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Assertion</type>
+        <definition>Assertion cc.saml.SAMLAssertion.createStockAuthnAssertion</definition>
+        <argsstring>()</argsstring>
+        <name>createStockAuthnAssertion</name>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a file whose contents are a <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> authentication assertion. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" line="95" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" bodystart="95" bodyend="142"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a55d99449858dc8b04e97e5536052d3c1" compoundref="_s_a_m_l_binding_8java" startline="52" endline="90">cc.saml.SAMLBinding.main</referencedby>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1af9dda4ac33e32d0ca6e5ddfc6541a393" compoundref="_s_a_m_l_assertion_8java" startline="55" endline="90">cc.saml.SAMLAssertion.main</referencedby>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1af02e3147cbf80f79030898f93ab4f26b" compoundref="_s_a_m_l_protocol_8java" startline="60" endline="98">cc.saml.SAMLProtocol.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_assertion_1a77b34cdf04f05847a41a1aa0376963c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.saml.SAMLAssertion.readAuthnAssertion</definition>
+        <argsstring>(String filename)</argsstring>
+        <name>readAuthnAssertion</name>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parses a <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> authentication assertion as found in a file, and prints out information about issuer, subject, and authentication context. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" line="149" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" bodystart="149" bodyend="166"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1af9dda4ac33e32d0ca6e5ddfc6541a393" compoundref="_s_a_m_l_assertion_8java" startline="55" endline="90">cc.saml.SAMLAssertion.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_assertion_1a44bd1f35473bd3c0dde4fa0cefadf752" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Assertion</type>
+        <definition>Assertion cc.saml.SAMLAssertion.createStockAttributeAssertion</definition>
+        <argsstring>()</argsstring>
+        <name>createStockAttributeAssertion</name>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a file whose contents are a <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> attribute assertion. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" line="171" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" bodystart="171" bodyend="227"/>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_1aae68aa3b87414f1d95d709c5077e4a67" compoundref="_s_a_m_l_8java" startline="62">cc.saml.SAML.builder</references>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a55d99449858dc8b04e97e5536052d3c1" compoundref="_s_a_m_l_binding_8java" startline="52" endline="90">cc.saml.SAMLBinding.main</referencedby>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1af9dda4ac33e32d0ca6e5ddfc6541a393" compoundref="_s_a_m_l_assertion_8java" startline="55" endline="90">cc.saml.SAMLAssertion.main</referencedby>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1af02e3147cbf80f79030898f93ab4f26b" compoundref="_s_a_m_l_protocol_8java" startline="60" endline="98">cc.saml.SAMLProtocol.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_assertion_1a2314b9dc82d1161cdf9eb2b076ef979e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.saml.SAMLAssertion.readAttributeAssertion</definition>
+        <argsstring>(String filename)</argsstring>
+        <name>readAttributeAssertion</name>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parses a <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> attribute assertion as found in a file, and prints out all attributes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" line="233" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" bodystart="233" bodyend="257"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1af9dda4ac33e32d0ca6e5ddfc6541a393" compoundref="_s_a_m_l_assertion_8java" startline="55" endline="90">cc.saml.SAMLAssertion.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_assertion_1af527d89e14d436b637139d360099be4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Assertion</type>
+        <definition>Assertion cc.saml.SAMLAssertion.createStockAuthzDecisionAssertion</definition>
+        <argsstring>()</argsstring>
+        <name>createStockAuthzDecisionAssertion</name>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a file whose contents are a <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> authorization-decision assertion. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" line="262" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" bodystart="262" bodyend="301"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a55d99449858dc8b04e97e5536052d3c1" compoundref="_s_a_m_l_binding_8java" startline="52" endline="90">cc.saml.SAMLBinding.main</referencedby>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1af9dda4ac33e32d0ca6e5ddfc6541a393" compoundref="_s_a_m_l_assertion_8java" startline="55" endline="90">cc.saml.SAMLAssertion.main</referencedby>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1af02e3147cbf80f79030898f93ab4f26b" compoundref="_s_a_m_l_protocol_8java" startline="60" endline="98">cc.saml.SAMLProtocol.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_assertion_1a73c5d748bf89ac05877fee1a470de3b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.saml.SAMLAssertion.readAuthzDecisionAssertion</definition>
+        <argsstring>(String filename)</argsstring>
+        <name>readAuthzDecisionAssertion</name>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parses a <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> authorization-decision assertion as found in a file, and prints out the essential information. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" line="307" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" bodystart="307" bodyend="329"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1af9dda4ac33e32d0ca6e5ddfc6541a393" compoundref="_s_a_m_l_assertion_8java" startline="55" endline="90">cc.saml.SAMLAssertion.main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Simple examples of coding to the OpenSAML API. Methods here can write and parse each of the three main assertion types: authentication, authorization decision, and attributes.</para><para><simplesect kind="author"><para>Will Provost </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="79">
+        <label>cc.saml.SAMLProtocol</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_protocol"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>cc.saml.SAMLBinding</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_binding"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>cc.saml.SAMLAssertion</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_assertion"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>cc.saml.SAML</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="83">
+        <label>SecureRandomIdentifierGenerator</label>
+      </node>
+      <node id="81">
+        <label>cc.saml.SAMLAssertion</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_assertion"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>DocumentBuilder</label>
+      </node>
+      <node id="82">
+        <label>cc.saml.SAML</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l"/>
+        <childnode refid="83" relation="usage">
+          <edgelabel>generator</edgelabel>
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>builder</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" line="42" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLAssertion.java" bodystart="40" bodyend="330"/>
+    <listofallmembers>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1a151c5b2772e0807d11ff04bd4b9c680e" prot="package" virt="non-virtual"><scope>cc::saml::SAMLAssertion</scope><name>[static initializer]</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a44bd1f35473bd3c0dde4fa0cefadf752" prot="public" virt="non-virtual"><scope>cc::saml::SAMLAssertion</scope><name>createStockAttributeAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a43260ae70cb3bd93396eadb5757966bf" prot="public" virt="non-virtual"><scope>cc::saml::SAMLAssertion</scope><name>createStockAuthnAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1af527d89e14d436b637139d360099be4e" prot="public" virt="non-virtual"><scope>cc::saml::SAMLAssertion</scope><name>createStockAuthzDecisionAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a9357b46b21876731eaf1ad4d2ae3b614" prot="private" virt="non-virtual"><scope>cc::saml::SAMLAssertion</scope><name>die</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1af9dda4ac33e32d0ca6e5ddfc6541a393" prot="public" virt="non-virtual"><scope>cc::saml::SAMLAssertion</scope><name>main</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a2314b9dc82d1161cdf9eb2b076ef979e" prot="public" virt="non-virtual"><scope>cc::saml::SAMLAssertion</scope><name>readAttributeAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a77b34cdf04f05847a41a1aa0376963c9" prot="public" virt="non-virtual"><scope>cc::saml::SAMLAssertion</scope><name>readAuthnAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a73c5d748bf89ac05877fee1a470de3b8" prot="public" virt="non-virtual"><scope>cc::saml::SAMLAssertion</scope><name>readAuthzDecisionAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1ad34cd08f7b843500a186a7ddab99cc66" prot="public" virt="non-virtual"><scope>cc::saml::SAMLAssertion</scope><name>SAML</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1aada3ea2396b3bf4fef14dd04524f8255" prot="public" virt="non-virtual"><scope>cc::saml::SAMLAssertion</scope><name>SAML</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dir_43873511c658981787385c42067aaff4" kind="dir">
+    <compoundname>OpenSAML/src/cc/saml</compoundname>
+    <innerfile refid="saml_2package-info_8java">package-info.java</innerfile>
+    <innerfile refid="_s_a_m_l_8java">SAML.java</innerfile>
+    <innerfile refid="_s_a_m_l_assertion_8java">SAMLAssertion.java</innerfile>
+    <innerfile refid="_s_a_m_l_binding_8java">SAMLBinding.java</innerfile>
+    <innerfile refid="_s_a_m_l_protocol_8java">SAMLProtocol.java</innerfile>
+    <innerfile refid="_s_a_m_l_signature_8java">SAMLSignature.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/"/>
+  </compounddef>
+</doxygen>

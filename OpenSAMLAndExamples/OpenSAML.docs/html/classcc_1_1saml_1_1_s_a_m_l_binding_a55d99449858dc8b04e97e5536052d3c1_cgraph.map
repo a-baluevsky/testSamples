@@ -1,0 +1,11 @@
+<map id="cc.saml.SAMLBinding.main" name="cc.saml.SAMLBinding.main">
+<area shape="rect" id="node2" href="$classcc_1_1saml_1_1_s_a_m_l_assertion.html#a44bd1f35473bd3c0dde4fa0cefadf752" title="cc.saml.SAMLAssertion.create\lStockAttributeAssertion" alt="" coords="236,5,439,47"/>
+<area shape="rect" id="node3" href="$classcc_1_1saml_1_1_s_a_m_l_protocol.html#a06661e5449ef7819597b486431cb05df" title="cc.saml.SAMLProtocol.create\lStockAttributeQuery" alt="" coords="239,71,435,112"/>
+<area shape="rect" id="node4" href="$classcc_1_1saml_1_1_s_a_m_l_assertion.html#a43260ae70cb3bd93396eadb5757966bf" title="cc.saml.SAMLAssertion.create\lStockAuthnAssertion" alt="" coords="236,136,439,177"/>
+<area shape="rect" id="node5" href="$classcc_1_1saml_1_1_s_a_m_l_protocol.html#ab2c7ef5273eaf9d37a2cab00fb3d0ff2" title="cc.saml.SAMLProtocol.create\lStockAuthnQuery" alt="" coords="239,201,435,243"/>
+<area shape="rect" id="node6" href="$classcc_1_1saml_1_1_s_a_m_l_assertion.html#af527d89e14d436b637139d360099be4e" title="cc.saml.SAMLAssertion.create\lStockAuthzDecisionAssertion" alt="" coords="236,267,439,308"/>
+<area shape="rect" id="node7" href="$classcc_1_1saml_1_1_s_a_m_l_protocol.html#ae49a4c5f70311cd187a51be70a6f91c8" title="cc.saml.SAMLProtocol.create\lStockAuthzDecisionQuery" alt="" coords="239,332,435,373"/>
+<area shape="rect" id="node8" href="$classcc_1_1saml_1_1_s_a_m_l_binding.html#a6a75906a183b16b63bba73e4c7dbca1a" title="cc.saml.SAMLBinding.die" alt="" coords="251,398,423,425"/>
+<area shape="rect" id="node9" href="$classcc_1_1saml_1_1_s_a_m_l_binding.html#a99a99bce947e9418e3ac6503c559aa1a" title="cc.saml.SAMLBinding.wrap\lAndPrintResponse" alt="" coords="246,449,429,491"/>
+<area shape="rect" id="node10" href="$classcc_1_1saml_1_1_s_a_m_l_binding.html#ac4d17112f40b2d5d6ca829cfee3f7ff0" title="cc.saml.SAMLBinding.wrap\lAndPrintToFile" alt="" coords="487,479,669,520"/>
+</map>

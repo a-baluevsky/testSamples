@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classcc_1_1saml_1_1_s_a_m_l" kind="class" prot="public">
+    <compoundname>cc::saml::SAML</compoundname>
+    <derivedcompoundref refid="classcc_1_1saml_1_1_s_a_m_l_assertion" prot="public" virt="non-virtual">cc.saml.SAMLAssertion</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcc_1_1saml_1_1_s_a_m_l_1aae68aa3b87414f1d95d709c5077e4a67" prot="private" static="no" mutable="no">
+        <type>DocumentBuilder</type>
+        <definition>DocumentBuilder cc.saml.SAML.builder</definition>
+        <argsstring></argsstring>
+        <name>builder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" line="62" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" bodystart="62" bodyend="-1"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a44bd1f35473bd3c0dde4fa0cefadf752" compoundref="_s_a_m_l_assertion_8java" startline="171" endline="227">cc.saml.SAMLAssertion.createStockAttributeAssertion</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcc_1_1saml_1_1_s_a_m_l_1a82d22a1eda10b89fadbd6c99e0a83de9" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String cc.saml.SAML.issuerURL</definition>
+        <argsstring></argsstring>
+        <name>issuerURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" line="63" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" bodystart="63" bodyend="-1"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_1aada3ea2396b3bf4fef14dd04524f8255" compoundref="_s_a_m_l_8java" startline="158" endline="173">cc.saml.SAML.SAML</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcc_1_1saml_1_1_s_a_m_l_1a83f633e1eba016d3041a9a2bea0d16b1" prot="private" static="yes" mutable="no">
+        <type>SecureRandomIdentifierGenerator</type>
+        <definition>SecureRandomIdentifierGenerator cc.saml.SAML.generator</definition>
+        <argsstring></argsstring>
+        <name>generator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" line="65" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcc_1_1saml_1_1_s_a_m_l_1af93452f724544b31fbb9cc46b2c3057c" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String cc.saml.SAML.CM_PREFIX</definition>
+        <argsstring></argsstring>
+        <name>CM_PREFIX</name>
+        <initializer>= &quot;urn:oasis:names:tc:SAML:2.0:cm:&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" line="66" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_1ac6d235370155720b7f82a4cf713c2507" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cc.saml.SAML.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse the command line for a filename to read, and optionally a filename to write (absent which the application will write to the console). Reads the given file as an XMLObject, and then dumps using a simple <ref refid="classcc_1_1xml_1_1_pretty_printer" kindref="compound">pretty printer</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" line="74" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" bodystart="74" bodyend="125"/>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_1ad34cd08f7b843500a186a7ddab99cc66" compoundref="_s_a_m_l_8java" startline="147" endline="150">cc.saml.SAML.SAML</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_1a151c5b2772e0807d11ff04bd4b9c680e" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>cc.saml.SAML.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Any use of this class assures that OpenSAML is bootstrapped. Also initializes an ID generator. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" line="74" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_1ad34cd08f7b843500a186a7ddab99cc66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>cc.saml.SAML.SAML</definition>
+        <argsstring>()</argsstring>
+        <name>SAML</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize JAXP DocumentBuilder instance for later use and reuse. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" line="147" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" bodystart="147" bodyend="150"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_1ac6d235370155720b7f82a4cf713c2507" compoundref="_s_a_m_l_8java" startline="74" endline="125">cc.saml.SAML.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_1aada3ea2396b3bf4fef14dd04524f8255" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>cc.saml.SAML.SAML</definition>
+        <argsstring>(String issuerURL)</argsstring>
+        <name>SAML</name>
+        <param>
+          <type>String</type>
+          <declname>issuerURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize JAXP DocumentBuilder instance for later use and reuse, and establishes an issuer URL.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>issuerURL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This will be used in all generated assertions </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" line="158" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" bodystart="158" bodyend="173"/>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_1a82d22a1eda10b89fadbd6c99e0a83de9" compoundref="_s_a_m_l_8java" startline="63">cc.saml.SAML.issuerURL</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Utility that uses OpenSAML to carry out common <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> tasks.</para><para><simplesect kind="author"><para>Will Provost </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="72">
+        <label>cc.saml.SAMLProtocol</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_protocol"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>cc.saml.SAMLBinding</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_binding"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>cc.saml.SAMLAssertion</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_assertion"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>cc.saml.SAML</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="75">
+        <label>SecureRandomIdentifierGenerator</label>
+      </node>
+      <node id="76">
+        <label>DocumentBuilder</label>
+      </node>
+      <node id="74">
+        <label>cc.saml.SAML</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l"/>
+        <childnode refid="75" relation="usage">
+          <edgelabel>generator</edgelabel>
+        </childnode>
+        <childnode refid="76" relation="usage">
+          <edgelabel>builder</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" line="61" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAML.java" bodystart="60" bodyend="485"/>
+    <listofallmembers>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1a151c5b2772e0807d11ff04bd4b9c680e" prot="package" virt="non-virtual"><scope>cc::saml::SAML</scope><name>[static initializer]</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1aae68aa3b87414f1d95d709c5077e4a67" prot="private" virt="non-virtual"><scope>cc::saml::SAML</scope><name>builder</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1af93452f724544b31fbb9cc46b2c3057c" prot="private" virt="non-virtual"><scope>cc::saml::SAML</scope><name>CM_PREFIX</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1a83f633e1eba016d3041a9a2bea0d16b1" prot="private" virt="non-virtual"><scope>cc::saml::SAML</scope><name>generator</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1a82d22a1eda10b89fadbd6c99e0a83de9" prot="private" virt="non-virtual"><scope>cc::saml::SAML</scope><name>issuerURL</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1ac6d235370155720b7f82a4cf713c2507" prot="public" virt="non-virtual"><scope>cc::saml::SAML</scope><name>main</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1ad34cd08f7b843500a186a7ddab99cc66" prot="public" virt="non-virtual"><scope>cc::saml::SAML</scope><name>SAML</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1aada3ea2396b3bf4fef14dd04524f8255" prot="public" virt="non-virtual"><scope>cc::saml::SAML</scope><name>SAML</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

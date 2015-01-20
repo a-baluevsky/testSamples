@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dir_1bb592836dfd33bbd61ac2d45c45a246" kind="dir">
+    <compoundname>OpenSAML/src/cc/security</compoundname>
+    <innerfile refid="_key_store_util_8java">KeyStoreUtil.java</innerfile>
+    <innerfile refid="security_2package-info_8java">package-info.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/security/"/>
+  </compounddef>
+</doxygen>

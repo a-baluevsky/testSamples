@@ -1,0 +1,9 @@
+<map id="cc.saml.SAMLAssertion.main" name="cc.saml.SAMLAssertion.main">
+<area shape="rect" id="node2" href="$classcc_1_1saml_1_1_s_a_m_l_assertion.html#a44bd1f35473bd3c0dde4fa0cefadf752" title="cc.saml.SAMLAssertion.create\lStockAttributeAssertion" alt="" coords="248,5,451,47"/>
+<area shape="rect" id="node3" href="$classcc_1_1saml_1_1_s_a_m_l_assertion.html#a43260ae70cb3bd93396eadb5757966bf" title="cc.saml.SAMLAssertion.create\lStockAuthnAssertion" alt="" coords="248,71,451,112"/>
+<area shape="rect" id="node4" href="$classcc_1_1saml_1_1_s_a_m_l_assertion.html#af527d89e14d436b637139d360099be4e" title="cc.saml.SAMLAssertion.create\lStockAuthzDecisionAssertion" alt="" coords="248,136,451,177"/>
+<area shape="rect" id="node5" href="$classcc_1_1saml_1_1_s_a_m_l_assertion.html#a9357b46b21876731eaf1ad4d2ae3b614" title="cc.saml.SAMLAssertion.die" alt="" coords="257,202,441,229"/>
+<area shape="rect" id="node6" href="$classcc_1_1saml_1_1_s_a_m_l_assertion.html#a2314b9dc82d1161cdf9eb2b076ef979e" title="cc.saml.SAMLAssertion.read\lAttributeAssertion" alt="" coords="253,253,445,295"/>
+<area shape="rect" id="node7" href="$classcc_1_1saml_1_1_s_a_m_l_assertion.html#a77b34cdf04f05847a41a1aa0376963c9" title="cc.saml.SAMLAssertion.read\lAuthnAssertion" alt="" coords="253,319,445,360"/>
+<area shape="rect" id="node8" href="$classcc_1_1saml_1_1_s_a_m_l_assertion.html#a73c5d748bf89ac05877fee1a470de3b8" title="cc.saml.SAMLAssertion.read\lAuthzDecisionAssertion" alt="" coords="253,384,445,425"/>
+</map>

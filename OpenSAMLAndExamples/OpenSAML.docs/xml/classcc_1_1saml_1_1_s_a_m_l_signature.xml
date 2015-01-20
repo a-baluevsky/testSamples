@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classcc_1_1saml_1_1_s_a_m_l_signature" kind="class" prot="public">
+    <compoundname>cc::saml::SAMLSignature</compoundname>
+    <innerclass refid="classcc_1_1saml_1_1_s_a_m_l_signature_1_1_key_value_key_selector" prot="private">cc::saml::SAMLSignature::KeyValueKeySelector</innerclass>
+    <innerclass refid="classcc_1_1saml_1_1_s_a_m_l_signature_1_1_simple_key_selector_result" prot="private">cc::saml::SAMLSignature::SimpleKeySelectorResult</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcc_1_1saml_1_1_s_a_m_l_signature_1a057662f99ed3ac5264ec98e48d7a4591" prot="private" static="no" mutable="no">
+        <type>XMLSignatureFactory</type>
+        <definition>XMLSignatureFactory cc.saml.SAMLSignature.factory</definition>
+        <argsstring></argsstring>
+        <name>factory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" line="82" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcc_1_1saml_1_1_s_a_m_l_signature_1a1607d6ec42164ba3f7d91ca9f486213d" prot="private" static="no" mutable="no">
+        <type>KeyStore</type>
+        <definition>KeyStore cc.saml.SAMLSignature.keyStore</definition>
+        <argsstring></argsstring>
+        <name>keyStore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" line="83" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcc_1_1saml_1_1_s_a_m_l_signature_1a9e440d64d6c381f3c78e3912ed916b45" prot="private" static="no" mutable="no">
+        <type>KeyPair</type>
+        <definition>KeyPair cc.saml.SAMLSignature.keyPair</definition>
+        <argsstring></argsstring>
+        <name>keyPair</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" line="84" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcc_1_1saml_1_1_s_a_m_l_signature_1a383f34112eb6fa050b738b30b3580989" prot="private" static="no" mutable="no">
+        <type>KeyInfo</type>
+        <definition>KeyInfo cc.saml.SAMLSignature.keyInfo</definition>
+        <argsstring></argsstring>
+        <name>keyInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" line="85" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_signature_1a1f1c1aca78dfe5fea283f893c32dd866" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cc.saml.SAMLSignature.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse the command line for a filename to read, and optionally a filename to write (absent which the application will write to the console). Reads the given file as an XMLObject, signs it using the configured key, and then dumps using a simple <ref refid="classcc_1_1xml_1_1_pretty_printer" kindref="compound">pretty printer</ref>. Or, validates the signature found in the given file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" line="94" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" bodystart="94" bodyend="148"/>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a832bbe4da44d102093ee0353b258e946" compoundref="_s_a_m_l_signature_8java" startline="154" endline="187">cc.saml.SAMLSignature.SAMLSignature</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a0ba0a32f91e34da7f26c7918ada96f46" compoundref="_s_a_m_l_signature_8java" startline="195" endline="250">cc.saml.SAMLSignature.signSAMLObject</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a6b23f831db757f0d47a1237ea9caf7b1" compoundref="_s_a_m_l_signature_8java" startline="260" endline="298">cc.saml.SAMLSignature.verifySAMLSignature</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a81b99672b9a6977db76c9289dce85b63" compoundref="_s_a_m_l_signature_8java" startline="383" endline="413">cc.saml.SAMLSignature.writeFiles</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_signature_1a832bbe4da44d102093ee0353b258e946" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>cc.saml.SAMLSignature.SAMLSignature</definition>
+        <argsstring>()</argsstring>
+        <name>SAMLSignature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loads a keystore and builds a stock key-info structure for use by base classes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" line="154" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" bodystart="154" bodyend="187"/>
+        <references refid="classcc_1_1security_1_1_key_store_util_1a059461c210038290e88d2115495b2d37" compoundref="_key_store_util_8java" startline="21" endline="39">cc.security.KeyStoreUtil.getKeyStore</references>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a1f1c1aca78dfe5fea283f893c32dd866" compoundref="_s_a_m_l_signature_8java" startline="94" endline="148">cc.saml.SAMLSignature.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_signature_1a0ba0a32f91e34da7f26c7918ada96f46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.saml.SAMLSignature.signSAMLObject</definition>
+        <argsstring>(Element target)</argsstring>
+        <name>signSAMLObject</name>
+        <param>
+          <type>Element</type>
+          <declname>target</declname>
+        </param>
+        <exceptions> throws GeneralSecurityException, XMLSignatureException, MarshalException      </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds an enveloped signature to the given element. Then moves the signature element so that it is in the correct position according to the <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> assertion and protocol schema: it must immediately follow any Issuer and precede everything else. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" line="195" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" bodystart="195" bodyend="250"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a1f1c1aca78dfe5fea283f893c32dd866" compoundref="_s_a_m_l_signature_8java" startline="94" endline="148">cc.saml.SAMLSignature.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_signature_1a6b23f831db757f0d47a1237ea9caf7b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean cc.saml.SAMLSignature.verifySAMLSignature</definition>
+        <argsstring>(Element target)</argsstring>
+        <name>verifySAMLSignature</name>
+        <param>
+          <type>Element</type>
+          <declname>target</declname>
+        </param>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Seeks out the signature element in the given tree, and validates it. Searches the configured keystore (asking it to function also as a truststore) for a certificate with a matching fingerprint.</para><para><simplesect kind="return"><para>true if the signature validates and we know the signer; false otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" line="260" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" bodystart="260" bodyend="298"/>
+        <references refid="classcc_1_1security_1_1_key_store_util_1a91019c003900d0d80bdf738d3cc9d0a3" compoundref="_key_store_util_8java" startline="67" endline="71">cc.security.KeyStoreUtil.getAliases</references>
+        <references refid="classcc_1_1security_1_1_key_store_util_1ad25e3074507ec517ac57bc701277e1f7" compoundref="_key_store_util_8java" startline="86" endline="90">cc.security.KeyStoreUtil.getCertificate</references>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a1f1c1aca78dfe5fea283f893c32dd866" compoundref="_s_a_m_l_signature_8java" startline="94" endline="148">cc.saml.SAMLSignature.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_signature_1a81b99672b9a6977db76c9289dce85b63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.saml.SAMLSignature.writeFiles</definition>
+        <argsstring>(Document doc, String baseFilename)</argsstring>
+        <name>writeFiles</name>
+        <param>
+          <type>Document</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>baseFilename</declname>
+        </param>
+        <exceptions> throws IOException     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper method to write two output files from a given DOM tree: one is the raw output and one is pretty-printed and given the suffix &quot;_pretty&quot; before the &quot;.xml&quot; extension. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" line="383" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" bodystart="383" bodyend="413"/>
+        <references refid="classcc_1_1xml_1_1_pretty_printer_1a970dae9de8f5cf89f2040a88ac948cd2" compoundref="_pretty_printer_8java" startline="41" endline="59">cc.xml.PrettyPrinter.prettyPrint</references>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a1f1c1aca78dfe5fea283f893c32dd866" compoundref="_s_a_m_l_signature_8java" startline="94" endline="148">cc.saml.SAMLSignature.main</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_signature_1a7d900671715d6f11a7f735724656d210" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean cc.saml.SAMLSignature.algEquals</definition>
+        <argsstring>(String algURI, String algName)</argsstring>
+        <name>algEquals</name>
+        <param>
+          <type>String</type>
+          <declname>algURI</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>algName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Test that a formal URI expresses the same algorithm as a conventional short name such as &quot;DSA&quot; or &quot;RSA&quot;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" line="350" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" bodystart="350" bodyend="357"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_signature_1_1_key_value_key_selector_1afd849631140c2ab6b5f8f92d04c35822" compoundref="_s_a_m_l_signature_8java" startline="306" endline="343">cc.saml.SAMLSignature.KeyValueKeySelector.select</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Utility for signing <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> DOM objects (assertions, requests, and responses) and for validating and checking signatures on <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> DOM objects. Unlike the rest of this package, this utility does not rely on OpenSAML; it operates directly on DOM trees. (There is an import of OpenSAML&apos;s XMLObject type, but that&apos;s just for our main method, which in turn is just for testing purposes.)</para><para><simplesect kind="author"><para>Will Provost </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="108">
+        <label>KeyStore</label>
+      </node>
+      <node id="107">
+        <label>KeyPair</label>
+      </node>
+      <node id="106">
+        <label>XMLSignatureFactory</label>
+      </node>
+      <node id="105">
+        <label>cc.saml.SAMLSignature</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_signature"/>
+        <childnode refid="106" relation="usage">
+          <edgelabel>factory</edgelabel>
+        </childnode>
+        <childnode refid="107" relation="usage">
+          <edgelabel>keyPair</edgelabel>
+        </childnode>
+        <childnode refid="108" relation="usage">
+          <edgelabel>keyStore</edgelabel>
+        </childnode>
+        <childnode refid="109" relation="usage">
+          <edgelabel>keyInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="109">
+        <label>KeyInfo</label>
+      </node>
+    </collaborationgraph>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" line="81" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLSignature.java" bodystart="80" bodyend="414"/>
+    <listofallmembers>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a7d900671715d6f11a7f735724656d210" prot="package" virt="non-virtual"><scope>cc::saml::SAMLSignature</scope><name>algEquals</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a057662f99ed3ac5264ec98e48d7a4591" prot="private" virt="non-virtual"><scope>cc::saml::SAMLSignature</scope><name>factory</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a383f34112eb6fa050b738b30b3580989" prot="private" virt="non-virtual"><scope>cc::saml::SAMLSignature</scope><name>keyInfo</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a9e440d64d6c381f3c78e3912ed916b45" prot="private" virt="non-virtual"><scope>cc::saml::SAMLSignature</scope><name>keyPair</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a1607d6ec42164ba3f7d91ca9f486213d" prot="private" virt="non-virtual"><scope>cc::saml::SAMLSignature</scope><name>keyStore</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a1f1c1aca78dfe5fea283f893c32dd866" prot="public" virt="non-virtual"><scope>cc::saml::SAMLSignature</scope><name>main</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a832bbe4da44d102093ee0353b258e946" prot="public" virt="non-virtual"><scope>cc::saml::SAMLSignature</scope><name>SAMLSignature</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a0ba0a32f91e34da7f26c7918ada96f46" prot="public" virt="non-virtual"><scope>cc::saml::SAMLSignature</scope><name>signSAMLObject</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a6b23f831db757f0d47a1237ea9caf7b1" prot="public" virt="non-virtual"><scope>cc::saml::SAMLSignature</scope><name>verifySAMLSignature</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_signature_1a81b99672b9a6977db76c9289dce85b63" prot="public" virt="non-virtual"><scope>cc::saml::SAMLSignature</scope><name>writeFiles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classcc_1_1saml_1_1_s_a_m_l_protocol" kind="class" prot="public">
+    <compoundname>cc::saml::SAMLProtocol</compoundname>
+    <basecompoundref refid="classcc_1_1saml_1_1_s_a_m_l_assertion" prot="public" virt="non-virtual">cc.saml.SAMLAssertion</basecompoundref>
+    <derivedcompoundref refid="classcc_1_1saml_1_1_s_a_m_l_binding" prot="public" virt="non-virtual">cc.saml.SAMLBinding</derivedcompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcc_1_1saml_1_1_s_a_m_l_protocol_1a4262fcbc5e01319dca13d1fa2021449c" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String cc.saml.SAMLProtocol.QUERY_SUFFIX</definition>
+        <argsstring></argsstring>
+        <name>QUERY_SUFFIX</name>
+        <initializer>= &quot;Query.xml&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" line="43" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcc_1_1saml_1_1_s_a_m_l_protocol_1a1d04c9a4ec75532a018b5e4d24bc3de4" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String cc.saml.SAMLProtocol.RESPONSE_SUFFIX</definition>
+        <argsstring></argsstring>
+        <name>RESPONSE_SUFFIX</name>
+        <initializer>= &quot;Response.xml&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" line="44" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_protocol_1a00f7656d1aaff46bbd7287289ed3e4b7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cc.saml.SAMLProtocol.die</definition>
+        <argsstring>()</argsstring>
+        <name>die</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" line="46" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" bodystart="46" bodyend="52"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1af02e3147cbf80f79030898f93ab4f26b" compoundref="_s_a_m_l_protocol_8java" startline="60" endline="98">cc.saml.SAMLProtocol.main</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_protocol_1af02e3147cbf80f79030898f93ab4f26b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cc.saml.SAMLProtocol.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parses the command line for instructions to write a <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> query or response in one of the three main types, and for a base filename. The command methods will automatically append either &quot;Query.xml&quot; or &quot;Response.xml&quot; to the base name. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" line="60" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" bodystart="60" bodyend="98"/>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a44bd1f35473bd3c0dde4fa0cefadf752" compoundref="_s_a_m_l_assertion_8java" startline="171" endline="227">cc.saml.SAMLAssertion.createStockAttributeAssertion</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1a06661e5449ef7819597b486431cb05df" compoundref="_s_a_m_l_protocol_8java" startline="169" endline="200">cc.saml.SAMLProtocol.createStockAttributeQuery</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a43260ae70cb3bd93396eadb5757966bf" compoundref="_s_a_m_l_assertion_8java" startline="95" endline="142">cc.saml.SAMLAssertion.createStockAuthnAssertion</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1ab2c7ef5273eaf9d37a2cab00fb3d0ff2" compoundref="_s_a_m_l_protocol_8java" startline="133" endline="164">cc.saml.SAMLProtocol.createStockAuthnQuery</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1af527d89e14d436b637139d360099be4e" compoundref="_s_a_m_l_assertion_8java" startline="262" endline="301">cc.saml.SAMLAssertion.createStockAuthzDecisionAssertion</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1ae49a4c5f70311cd187a51be70a6f91c8" compoundref="_s_a_m_l_protocol_8java" startline="205" endline="232">cc.saml.SAMLProtocol.createStockAuthzDecisionQuery</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1a00f7656d1aaff46bbd7287289ed3e4b7" compoundref="_s_a_m_l_protocol_8java" startline="46" endline="52">cc.saml.SAMLProtocol.die</references>
+        <references refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1ab0ece914168029454fc9efa1cf518441" compoundref="_s_a_m_l_protocol_8java" startline="104" endline="128">cc.saml.SAMLProtocol.printResponse</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_protocol_1ab0ece914168029454fc9efa1cf518441" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cc.saml.SAMLProtocol.printResponse</definition>
+        <argsstring>(Assertion assertion, String filename)</argsstring>
+        <name>printResponse</name>
+        <param>
+          <type>Assertion</type>
+          <declname>assertion</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <exceptions> throws IOException, MarshallingException, TransformerException     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper method to generate and pretty-print a response, based on a given query (for our inResponseTo value) and an assertion. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" line="104" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" bodystart="104" bodyend="128"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1af02e3147cbf80f79030898f93ab4f26b" compoundref="_s_a_m_l_protocol_8java" startline="60" endline="98">cc.saml.SAMLProtocol.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_protocol_1ab2c7ef5273eaf9d37a2cab00fb3d0ff2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AuthnQuery</type>
+        <definition>AuthnQuery cc.saml.SAMLProtocol.createStockAuthnQuery</definition>
+        <argsstring>()</argsstring>
+        <name>createStockAuthnQuery</name>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a file whose contents are a <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> authentication query. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" line="133" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" bodystart="133" bodyend="164"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a55d99449858dc8b04e97e5536052d3c1" compoundref="_s_a_m_l_binding_8java" startline="52" endline="90">cc.saml.SAMLBinding.main</referencedby>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1af02e3147cbf80f79030898f93ab4f26b" compoundref="_s_a_m_l_protocol_8java" startline="60" endline="98">cc.saml.SAMLProtocol.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_protocol_1a06661e5449ef7819597b486431cb05df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AttributeQuery</type>
+        <definition>AttributeQuery cc.saml.SAMLProtocol.createStockAttributeQuery</definition>
+        <argsstring>()</argsstring>
+        <name>createStockAttributeQuery</name>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a file whose contents are a <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> attribute query. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" line="169" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" bodystart="169" bodyend="200"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a55d99449858dc8b04e97e5536052d3c1" compoundref="_s_a_m_l_binding_8java" startline="52" endline="90">cc.saml.SAMLBinding.main</referencedby>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1af02e3147cbf80f79030898f93ab4f26b" compoundref="_s_a_m_l_protocol_8java" startline="60" endline="98">cc.saml.SAMLProtocol.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcc_1_1saml_1_1_s_a_m_l_protocol_1ae49a4c5f70311cd187a51be70a6f91c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AuthzDecisionQuery</type>
+        <definition>AuthzDecisionQuery cc.saml.SAMLProtocol.createStockAuthzDecisionQuery</definition>
+        <argsstring>()</argsstring>
+        <name>createStockAuthzDecisionQuery</name>
+        <exceptions> throws Exception     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a file whose contents are a <ref refid="classcc_1_1saml_1_1_s_a_m_l" kindref="compound">SAML</ref> authorization-decision query. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" line="205" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" bodystart="205" bodyend="232"/>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_binding_1a55d99449858dc8b04e97e5536052d3c1" compoundref="_s_a_m_l_binding_8java" startline="52" endline="90">cc.saml.SAMLBinding.main</referencedby>
+        <referencedby refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1af02e3147cbf80f79030898f93ab4f26b" compoundref="_s_a_m_l_protocol_8java" startline="60" endline="98">cc.saml.SAMLProtocol.main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Simple examples of coding to the OpenSAML API. Methods here can write SAMLP queries and responses for each of the three main types: authentication, authorization decision, and attributes.</para><para><simplesect kind="author"><para>Will Provost </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="95">
+        <label>cc.saml.SAMLProtocol</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_protocol"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>cc.saml.SAMLBinding</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_binding"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>cc.saml.SAMLAssertion</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_assertion"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>cc.saml.SAML</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="99">
+        <label>cc.saml.SAMLProtocol</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_protocol"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>SecureRandomIdentifierGenerator</label>
+      </node>
+      <node id="100">
+        <label>cc.saml.SAMLAssertion</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l_assertion"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>DocumentBuilder</label>
+      </node>
+      <node id="101">
+        <label>cc.saml.SAML</label>
+        <link refid="classcc_1_1saml_1_1_s_a_m_l"/>
+        <childnode refid="102" relation="usage">
+          <edgelabel>generator</edgelabel>
+        </childnode>
+        <childnode refid="103" relation="usage">
+          <edgelabel>builder</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" line="42" column="1" bodyfile="S:/git/testSamples/OpenSAMLAndExamples/OpenSAML/src/cc/saml/SAMLProtocol.java" bodystart="40" bodyend="233"/>
+    <listofallmembers>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1a151c5b2772e0807d11ff04bd4b9c680e" prot="package" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>[static initializer]</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a44bd1f35473bd3c0dde4fa0cefadf752" prot="public" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>createStockAttributeAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1a06661e5449ef7819597b486431cb05df" prot="public" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>createStockAttributeQuery</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a43260ae70cb3bd93396eadb5757966bf" prot="public" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>createStockAuthnAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1ab2c7ef5273eaf9d37a2cab00fb3d0ff2" prot="public" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>createStockAuthnQuery</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1af527d89e14d436b637139d360099be4e" prot="public" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>createStockAuthzDecisionAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1ae49a4c5f70311cd187a51be70a6f91c8" prot="public" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>createStockAuthzDecisionQuery</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1a00f7656d1aaff46bbd7287289ed3e4b7" prot="private" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>die</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1af02e3147cbf80f79030898f93ab4f26b" prot="public" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>main</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1ab0ece914168029454fc9efa1cf518441" prot="public" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>printResponse</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1a4262fcbc5e01319dca13d1fa2021449c" prot="private" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>QUERY_SUFFIX</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a2314b9dc82d1161cdf9eb2b076ef979e" prot="public" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>readAttributeAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a77b34cdf04f05847a41a1aa0376963c9" prot="public" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>readAuthnAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_assertion_1a73c5d748bf89ac05877fee1a470de3b8" prot="public" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>readAuthzDecisionAssertion</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_protocol_1a1d04c9a4ec75532a018b5e4d24bc3de4" prot="private" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>RESPONSE_SUFFIX</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1ad34cd08f7b843500a186a7ddab99cc66" prot="public" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>SAML</name></member>
+      <member refid="classcc_1_1saml_1_1_s_a_m_l_1aada3ea2396b3bf4fef14dd04524f8255" prot="public" virt="non-virtual"><scope>cc::saml::SAMLProtocol</scope><name>SAML</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
