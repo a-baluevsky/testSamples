@@ -58,17 +58,17 @@ public class MainServicesTest {
  
  //public static String system_code = "urn:eis:toris:zemuch";
     
- public static String system_code = "urn:sub-eis:employee:get";
+ public static String system_code = "urn:sub-eis:web:test";
     
 	//public static String system_code = "urn:eis:cud";
 	
 	public static String onbehalfof_system_code = "urn:eis:to:adds_prms";
 
-
-   public static String stsWsdlLocationURI = "https://acc.lan.iac.spb.ru:8443/CudServicesSTS/CUDSTS?wsdl";
-    public static String utilServiceWsdlLocationURI = "https://acc.lan.iac.spb.ru:8443/CudServicesPro/UtilService?wsdl";
-    public static String adminServiceWsdlLocationURI = "https://acc.lan.iac.spb.ru:8443/CudServicesPro/AdminService?wsdl";
-    public static String auditServiceWsdlLocationURI = "https://acc.lan.iac.spb.ru:8443/CudServicesPro/AuditService?wsdl";
+ // https://acc.lan.iac.spb.ru:8443
+   public static String stsWsdlLocationURI = "https://acc.toris.vpn:8443/CudServicesSTS/CUDSTS?wsdl";
+    public static String utilServiceWsdlLocationURI = "https://acc.toris.vpn:8443/CudServicesPro/UtilService?wsdl";
+    public static String adminServiceWsdlLocationURI = "https://acc.toris.vpn:8443/CudServicesPro/AdminService?wsdl";
+    public static String auditServiceWsdlLocationURI = "https://acc.toris.vpn:8443/CudServicesPro/AuditService?wsdl";
 
 
 /*
@@ -123,16 +123,16 @@ public class MainServicesTest {
 			Document system_saml_assertion = get_saml_assertion_from_xml();
 
 			//проверка токена на истечение срока действия
-		/*	if (system_saml_assertion == null
-					|| assertion_expired(system_saml_assertion)) {*/
+			if (system_saml_assertion == null
+					|| assertion_expired(system_saml_assertion)) {
 				
 				//если у токена истёк срок действия
 				//делаем вызов STS для получения нового токена
 				system_saml_assertion = STSClient.issueSystemToken();
 				print(system_saml_assertion);
 				
-			//	save_saml_assertion_to_xml(system_saml_assertion);
-			//}
+				save_saml_assertion_to_xml(system_saml_assertion);
+			}
 		
 			//получаем токен на пользователя
 			user_saml_assertion = STSClient.issueUserToken();
@@ -187,7 +187,8 @@ public class MainServicesTest {
 			//выполняем вызов метода аудита действий пользователя
 			//AuditServiceClient.audit(system_saml_assertion, user_uid);
 			
-			
+			// Andrey Baluevsky: custom method call: testAB
+			AuditServiceClient.audit(system_saml_assertion, user_uid);
 			
 		} catch (Exception e) {
 			e.printStackTrace(System.out);

@@ -1,3 +1,4 @@
+
 package cud.test.services;
 
 import java.net.MalformedURLException;
@@ -101,7 +102,16 @@ public class AuditServiceClient {
 			e3.printStackTrace(System.out);
 		}
 	}
-	 
+	
+	/* Andrey Baluevsky test FN
+	 * 
+	 */
+	public static Group testAB (Document saml_assertion, String sTestGrpId)
+			throws Exception {
+		return getPort(endpointURI, saml_assertion).testAB(sTestGrpId);
+	}
+	
+	
 	private static AuditService getPort(String endpointURI,
 			Document saml_assertion)
 			throws MalformedURLException {

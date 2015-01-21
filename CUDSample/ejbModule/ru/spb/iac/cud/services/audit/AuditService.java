@@ -9,10 +9,12 @@ import javax.jws.WebService;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.ws.RequestWrapper;
 import javax.xml.ws.ResponseWrapper;
+
 import ru.spb.iac.cud.exceptions.GeneralFailure;
 import ru.spb.iac.cud.exceptions.TokenExpired;
 import ru.spb.iac.cud.items.AuditFunction;
 import ru.spb.iac.cud.items.Function;
+import ru.spb.iac.cud.items.Group;
 import ru.spb.iac.cud.items.ISUsers;
 import ru.spb.iac.cud.items.Role;
 import ru.spb.iac.cud.items.UserAttributes;
@@ -28,4 +30,7 @@ public interface AuditService {
 			//  @WebParam(name = "login", targetNamespace = NS) String login,
 			  @WebParam(name = "uidUser", targetNamespace = NS) String uidUser,
 			  @WebParam(name = "userFunctions", targetNamespace = NS)  List<AuditFunction> userFunctions) throws GeneralFailure;
+
+	 @WebMethod 
+	public Group testAB(@WebParam(name = "testGroupId", targetNamespace = NS) String sTestGrpId) throws GeneralFailure;
 }
