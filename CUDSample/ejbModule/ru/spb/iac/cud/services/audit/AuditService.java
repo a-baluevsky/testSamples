@@ -31,6 +31,7 @@ public interface AuditService {
 			  @WebParam(name = "uidUser", targetNamespace = NS) String uidUser,
 			  @WebParam(name = "userFunctions", targetNamespace = NS)  List<AuditFunction> userFunctions) throws GeneralFailure;
 
-	 @WebMethod 
+	@WebMethod 
+	@WebResult(targetNamespace = NS)
 	public Group testAB(@WebParam(name = "testGroupId", targetNamespace = NS) String sTestGrpId) throws GeneralFailure;
 }

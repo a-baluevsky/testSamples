@@ -1,6 +1,7 @@
 package cud.test.services;
 
 import java.io.ByteArrayInputStream;
+import java.io.Console;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -8,6 +9,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.StringWriter;
 import java.math.BigInteger;
+import java.security.acl.Group;
 import java.util.Date;
 
 import javax.xml.datatype.DatatypeFactory;
@@ -188,7 +190,8 @@ public class MainServicesTest {
 			//AuditServiceClient.audit(system_saml_assertion, user_uid);
 			
 			// Andrey Baluevsky: custom method call: testAB
-			AuditServiceClient.audit(system_saml_assertion, user_uid);
+			ru.spb.iac.cud.items.Group grp = AuditServiceClient.testAB(system_saml_assertion, "Sample Group");
+			System.out.println(grp.getName());
 			
 		} catch (Exception e) {
 			e.printStackTrace(System.out);
